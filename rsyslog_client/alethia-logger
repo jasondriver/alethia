@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+import sys
+import submitter
+
+private_key_hex = submitter.make_private_key_hex()
+alethia = submitter.Alethia("example.com", private_key_hex, api_url="http://rest-api:8008")
+log = alethia.get_log_handle("syslog")
+
+for line in sys.stdin:
+  log.append(line)

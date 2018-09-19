@@ -2,8 +2,6 @@
 
 Team project with Jonathan Castello, and Jon Chapman, and Jason Driver pulled from our gitlab repository.
 
-## Description
-
 A distributed, blockchain based solution for guaranteeing system log integrity.
 Stores sha256 hashes of each log line onto the sawtooth blockchain, verifier
 pulls a page of hashes and outputs the line number of mutated log entries in

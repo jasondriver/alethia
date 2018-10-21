@@ -149,7 +149,7 @@ if __name__ == "__main__":
   # Test Setup
   # Test files located in folder test_case_logs: foo.log and bar.txt
   private_key_hex = submitter.make_private_key_hex()
-  alethia = submitter.Alethia("www.yo_mama_apple_pie.com", private_key_hex, api_url="http://rest-api:8008")
+  alethia = submitter.Alethia("www.website.com", private_key_hex, api_url="http://rest-api:8008")
   log = alethia.get_log_handle("syslog4") 
   
   # Test 1: Large log file with blockchain

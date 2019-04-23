@@ -1,7 +1,7 @@
 # Project Alethia #
 
 Team project for Advanced Operating systems pulled from our gitlab repository.  Authors in lexicographical order:
-Jonathan Castello, and Jon Chapman, and Jason Driver.
+Jonathan Castello, Jon Chapman, and Jason Driver.
 
 A distributed, blockchain based solution for guaranteeing system log integrity.
 Stores sha256 hashes of each log line onto the sawtooth blockchain, verifier
